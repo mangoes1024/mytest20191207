@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f7f7f7;
+}
+ul,li {
+    padding: 0;
+    margin: 0;
+}
+
+.tarbar {
+    display: block;
+    width: 84px;
+    float: left;
+    text-decoration: none;
+  
+}
+.mint-tabbar {
+    height: 50px;
+}
+ .mint-tab-item {
+     padding:3px 0 ;
+ }
+ .mint-tab-item-label {
+    color: #bcbcbc;
+}
+.is-active{
+   color:blue;
+}
+.is-active .mint-tab-item-label {
+    color:blue;;
+}
+.mint-tabbar {
+   position: fixed;
+}
+li {
+    list-style: none;
+    
+}
+.tembottom {
+margin-bottom: 50px;
+}
